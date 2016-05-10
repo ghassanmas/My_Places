@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ListPreference
+        android:key="distanne_pref"
+        android:title="Unit Preferences "
+        android:defaultValue="Km"
+        android:entries="@array/distance_pref"
+        android:entryValues="@array/distance_pref"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:dialogTitle="Set The distance Unit"/>
+   <EditTextPreference
+       android:key="radians"
+       android:inputType="number"
+       android:defaultValue="500"
+       android:title="Radians"
+       android:summary="Choose the radians ">
+   </EditTextPreference>
+
+
+
+
+
+
+
+
+
+
+</PreferenceScreen>
